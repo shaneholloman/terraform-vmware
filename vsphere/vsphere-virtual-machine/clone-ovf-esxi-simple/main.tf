@@ -44,7 +44,7 @@ data "vsphere_host" "host" {
 }
 
 data "vsphere_network" "network" {
-  name          = sfo-m01-cl01-vds01-pg-mgmt"
+  name          = "sfo-m01-cl01-vds01-pg-mgmt"
   datacenter_id = data.vsphere_datacenter.datacenter.id
 }
 
